@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5,8 +7,6 @@ html {
 }
 body {
   margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 article,
 aside,
@@ -62,7 +62,7 @@ dfn {
 }
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: .67em 0;
 }
 mark {
   background-color: #ff0;
@@ -79,10 +79,10 @@ sup {
   vertical-align: baseline;
 }
 sub {
-  bottom: -0.25em;
+  bottom: -.25em;
 }
 sup {
-  top: -0.5em;
+  top: -.5em;
 }
 img {
   border-style: none;
@@ -124,29 +124,29 @@ button,
 select {
   text-transform: none;
 }
-[type="reset"],
-[type="submit"],
+[type=reset],
+[type=submit],
 button,
-html [type="button"] {
+html [type=button] {
   -webkit-appearance: button;
 }
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
 button::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
 button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+  padding: .35em .625em .75em;
 }
 legend {
   box-sizing: border-box;
@@ -159,26 +159,26 @@ legend {
 textarea {
   overflow: auto;
 }
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   padding: 0;
 }
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 ::-webkit-input-placeholder {
   color: inherit;
-  opacity: 0.54;
+  opacity: .54;
 }
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
@@ -400,6 +400,10 @@ pre {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
   margin-bottom: 1.45rem;
   font-size: 0.85rem;
   line-height: 1.42;
@@ -619,4 +623,102 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+
+.logo-image {
+  height: 70px;
+  position: relative;
+  top: 30px;
+  right: 10px;
+}
+
+.main-jar {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Courier';
+}
+
+.main-jar img {
+  width: 70%;
+}
+
+.main-jar a {
+  text-decoration: none;
+  color: #ff86ee;
+  font-style: italic;
+}
+
+@media only screen and (min-width: 760px) {
+  .main-jar img {
+  width: 30%;
+}
+}
+
+.task {
+  text-align: center;
+  font-family: 'Courier';
+}
+
+.task h2 {
+  font-family: courier;
+}
+
+.about p {
+  font-family: 'Courier';
+}
+
+.about a {
+  text-decoration: none;
+  color: #ff86ee;
+  font-style: italic;
+  font-family: 'Courier';
+}
+
+.about h1 {
+  font-family: 'Courier';
+}
+
+.logo {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.btn-form {
+  border: none;
+  background-color: white;
+  font-weight:bold;
+}
+
+.btn-form:hover {
+  border: none;
+  background-color: white;
+  font-weight:lighter;
+  color: #ff86ee;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid black;
+  border-radius: 0;
+}
+
+input:focus { outline: none; }
+
+/*button:focus { outline: none; }*/
+button:hover { font-weight: lighter; }
+
+.task-name {
+  animation-name: example;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes example {
+    0%   {opacity: 0;}
+    50%  {opacity: .5;}
+    100% {opacity: 1;}
 }
