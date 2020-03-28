@@ -4,7 +4,6 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Form from '../components/form'
 import jar from '../images/the-jar-project-big.png'
-import Insta from '../components/instafeed'
 import { getFunName } from '../helpers'
 
 class IndexPage extends React.Component {
@@ -45,7 +44,6 @@ class IndexPage extends React.Component {
           <Form/>
           <Link to="/about">About The Jar Project</Link>
         </div>
-        <Insta/>
       </Layout>
     )
   }
