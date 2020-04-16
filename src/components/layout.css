@@ -722,3 +722,14 @@ button:hover { font-weight: lighter; }
     50%  {opacity: .5;}
     100% {opacity: 1;}
 }
+
+.btn-red {
+  background-color: #FD060D;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 6px 10px 132px -41px rgba(0,0,0,0.52);
+}

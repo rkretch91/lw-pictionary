@@ -3,48 +3,10 @@ export function rando(arr) {
 }
 
 export function getFunName() {
-const digitalGenerosity = ['Send 5 kind messages to any 5 friends',
-                           'Offer a service to someone who needs it (online)',
-                           'Write a rainy day letter to a friend. This is a letter they will only open on a day when they are feeling down and need a boost.',
-                           'If you have the means, donate $10 to the cause of your choice',
-                           'Initiate a Zoom happy hour with a friend or group of friends',
-                           'Send a colleague a message complimenting them on their hard work',
-                           'Call a sibling',
-                           'Call a grandparent',
-                           'Call a parent',
-                           'Call a family member that could use some love today',
-                           'Find an online volunteering opportunity and sign up to do it!',
-                           'Find a personal cause on GoFundMe and donate',
-                           'Tell someone what you admire about them',
-                           'Promote a small business - ex. buy take away from your favorite restaurant',
-                           'Plant a tree via onetreeplanted.org - only costs a dollar',
-                           'Workout for at least 10 minutes today (try Freeletics)',
-                           'Be fully present during a conversation today - put your phone away',
-                           'Identify your biggest phobia and do something today to fix it',
-                           'Give three compliments to a stranger online',
-                           'Pamper yourself today - ex. take a bath',
-                           'Dance to your favorite song and scream the lyrics outloud',
-                           'Spend 30 minutes learning a new skill today or developing one',
-                           'Spend 30 minutes learning a language today (try Duolingo)',
-                           'Send in an appication for something (a job, university, other program)',
-                           'Do something creative for an hour',
-                           'Find one inspiring person and call or write them',
-                           'Turn off your phone for the whole day (if not possible, once this week)',
-                           'Go for a twenty minute walk in a direction you normally don’t go in',
-                           'Spend 30 minutes writing about whatever today',
-                           'Cook yourself something unusual or special today',
-                           'If you haven’t started yet, start meditating for 30 days today (Headspace is a great app)',
-                           'Do a chore for someone without them noticing',
-                           'Write your neighbors a nice letter and pop it in their mailbox',
-                           'Call an old friend',
-                           'Send five friends or family members messages about their strongest qualities to boost their confidence',
-                           'Get your voice out there today (an opinion, your music, your love for someone) in whatever way (message, video, in-person)',
-                           'Do a yoga class online today',
-                           'Sit with a glass of wine or a cup of tea and relax',
-                           'Read a book today or a positive article',
-                           'Tell an old teacher/colleagues/etc how much they inspired you',
-                           'Come up with a home project today and do it for a little while'
-];
-  const generatedMessage = `${rando(digitalGenerosity)}`
-  return generatedMessage;
+ const words = "snag jungle important mime peasant baggage hail clog pizza sauce password scream newsletter bookend pro dripping pharmacist lie catalog ringleader husband laser diagonal comfy myth dorsal biscuit hydrogen macaroni rubber darkness yolk exercise vegetarian shrew chestnut ditch wobble glitter neighborhood dizzy fireside retail drawback logo fabric mirror barber jazz migrate drought commercial dashboard bargain double download professor landscape goggles vitamin half cardboard oar baby-sitter drip shampoo point time-machine yardstick think lace darts world avocado bleach shower-curtain extension-cord dent birthday lap sandbox bruise quicksand fog gasoline pocket honk sponge bride wig zipper wag letter-opener fiddle water buffalo pilot brand pail baguette rib mascot fireman pole zoo sushi fizz ceiling fan bald banister punk post office season Internet chess puppet chime ivy full koala dentist ping-pong mast hut welder dryer sheets sunburn houseboat sleep kneel crust grandpa speakers cheerleader dust bunny salmon cabin handle swamp cruise wedding-cake crow's-nest macho drain foil orbit dream recycle raft gold plank cliff sweater vest cape safe picnic shrink ray leak boa-constrictor deep tiptoe hurdle knight loveseat cloak bedbug bobsled hot-tub firefighter cell phone charger nightmare coach moth sneeze wooly-mammoth pigpen swarm goblin chef applause wax sheep-dog plow runt html/css ruby yield regex string hash array irb map(coding) destructive-method boolean"
+
+ const splitWords = words.split(" ")
+
+ const generatedMessage = `${rando(splitWords)}`
+ return generatedMessage;
 }

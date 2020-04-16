@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../images/the-jar-project-logo.png'
+import logo from '../images/lewagon-logo.png'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
     >
 
       <h1 style={{ margin: 0}} className="logo">
-      <img src={logo} alt="jar-project-logo" className="logo-image"/>
+      <img src={logo} alt="le-wagon-logo" className="logo-image"/>
         <Link
           to="/"
           style={{

@@ -24,13 +24,13 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'The Jar Project is a daily reminder to open up your world to fears, spontaneity and kindness, and do something atypical on the daily; for it is these uncomfortable moments and periods of reflection that will help us reconnect and grow as a human race.' },
-            { name: 'keywords', content: 'jar, kindness, spontaneity, fear, anxiety, personal development, depression, progression, growth' },
+            { name: 'description', content: 'Le Wagon Pictionary' },
+            { name: 'keywords', content: 'A game for a time of remoteness' },
           ]}
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle="The Jar Project" />
+        <Header siteTitle="Le Wagon Pictionary" />
         <div
           style={{
             margin: '0 auto',
