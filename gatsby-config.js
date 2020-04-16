@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `The Jar Project`,
-    description: `This April, let's conquer the harshness of the Corona Virus by picking a task from the jar to do everyday. Each task will help you spread generosity and kindness during this digital era.`,
+    title: `Le Wagon Pictionary`,
+    description: `Pictionary for remote times :)`,
     author: `@gatsbyjs`,
   },
   plugins: [
