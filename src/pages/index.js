@@ -78,7 +78,7 @@ class IndexPage extends React.Component {
         <div style={{paddingTop: '20px'}}>
         <CountdownCircleTimer
         isPlaying
-        durationSeconds={10}
+        durationSeconds={90}
         colors={[["#004777", 0.33], ["#F7B801", 0.33], ["#A30000"]]}
         renderTime={this.renderTime}
         onComplete={() => [true, 1000]}
