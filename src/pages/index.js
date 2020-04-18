@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
   _onButtonClick() {
      setTimeout(() => {
         this.setState({ showComponent: false });
-     }, 0);  // ------------------------------> timeout 0
+     }, 0);
 
      setTimeout(() => {
         this.setState({ showComponent: true });
@@ -78,7 +78,7 @@ class IndexPage extends React.Component {
         <div style={{paddingTop: '20px'}}>
         <CountdownCircleTimer
         isPlaying
-        durationSeconds={90}
+        durationSeconds={75}
         colors={[["#004777", 0.33], ["#F7B801", 0.33], ["#A30000"]]}
         renderTime={this.renderTime}
         onComplete={() => [false, 1000]}
