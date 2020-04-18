@@ -81,7 +81,7 @@ class IndexPage extends React.Component {
         durationSeconds={90}
         colors={[["#004777", 0.33], ["#F7B801", 0.33], ["#A30000"]]}
         renderTime={this.renderTime}
-        onComplete={() => [true, 1000]}
+        onComplete={() => [false, 1000]}
       /><audio className="audio-element">
           <source src="https://api.coderrocketfuel.com/assets/pomodoro-times-up.mp3"></source>
         </audio></div> : null
